@@ -7,4 +7,3 @@ This a collection of demo for go concepts
 - array
 - slice
 - map
-- 
