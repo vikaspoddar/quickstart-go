@@ -11,4 +11,9 @@ func MapDemo() {
 	fmt.Println("Map is not mutable")
 	fmt.Println("Map is not thread safe")
 	fmt.Println("Map is not zero-initialized")
+	var myMap map[string]int
+	fmt.Println(len(myMap))
+	fmt.Println(myMap)
+	//myMap["vikas"] = 69
+	//fmt.Println(myMap)
 }

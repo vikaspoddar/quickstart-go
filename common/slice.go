@@ -33,4 +33,7 @@ func SliceDemo() {
 	fmt.Println(intSlice5)
 	intSlice5 = append(intSlice5, 14)
 	fmt.Println(intSlice5)
+	fmt.Println("Zero length slice")
+	var intSlice6 = make([]int, 0)
+	fmt.Println(intSlice6)
 }
