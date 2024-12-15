@@ -1,7 +1,12 @@
 package main
 
-import "go-in-1hr/common"
+import (
+	"fmt"
+	"github.com/google/uuid"
+)
 
 func main() {
-	common.PointerDemo()
+	for i := 0; i < 5; i++ {
+		fmt.Println(uuid.New().String())
+	}
 }
