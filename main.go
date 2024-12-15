@@ -1,12 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"github.com/google/uuid"
-)
+import external_package "github.com/VikasPoddar/go-in-1hr/external-package"
 
 func main() {
-	for i := 0; i < 5; i++ {
-		fmt.Println(uuid.New().String())
-	}
+	external_package.UUIDDemo()
 }
