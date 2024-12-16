@@ -1,4 +1,5 @@
 # GO in 1hr
+Build status: [![Go](https://github.com/VikasPoddar/go-in-1hr/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/VikasPoddar/go-in-1hr/actions/workflows/go.yml)
 
 This a collection of demo for go concepts
 
