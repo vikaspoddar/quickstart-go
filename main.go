@@ -10,7 +10,6 @@ func main() {
 	// every demo has its own package
 	// for example
 	// 1. testing_demo package: This package demonstrate how simple testing works in go
-	os_package.IoDemo()
 	os_package.OsDemo()
 }
 
