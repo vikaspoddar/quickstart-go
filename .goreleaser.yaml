@@ -40,6 +40,10 @@ archives:
 brews:
   - name: go-in-1hr
     homepage: https://github.com/VikasPoddar/homebrew-go-in-1hr
+    repository:
+      owner: VikasPoddar
+      name: go-in-1hr
+      branch: main
 
 changelog:
   sort: asc
