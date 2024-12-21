@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/VikasPoddar/go-in-1hr/os_package"
+	"github.com/VikasPoddar/go-in-1hr/common"
 )
 
 func main() {
@@ -10,8 +10,7 @@ func main() {
 	// every demo has its own package
 	// for example
 	// 1. testing_demo package: This package demonstrate how simple testing works in go
-	os_package.IoDemo()
-	os_package.OsDemo()
+	common.VariadicFunctionDemo(1, 3, 5, 5)
 }
 
 //following function are used for testing github-action's CI workflow
