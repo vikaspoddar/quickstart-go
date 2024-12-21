@@ -9,8 +9,8 @@ func main() {
 	// main package act entry-point to execution
 	// every demo has its own package
 	// for example
-	// 1. testing_demo package: This package demonstrate how simple testing works in go
-	common.VariadicFunctionDemo(1, 3, 5, 5)
+	// 1. testing package: This package demonstrate how simple testing works in go
+	common.TickerDemo()
 }
 
 //following function are used for testing github-action's CI workflow

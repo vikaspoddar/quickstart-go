@@ -1,5 +1,5 @@
-// Package testing_demo provides a simple demo how testing works in go
-package testing_demo
+// Package testing provides a simple demo how testing works in go
+package testing
 
 type ComplexNumber struct {
 	Real, Imaginary float64

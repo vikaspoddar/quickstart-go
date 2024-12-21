@@ -1,4 +1,4 @@
-package os_package
+package os
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 )
 
 func OsDemo() {
-	file, err := os.Open("os_package/example.txt")
+	file, err := os.Open("os/example.txt")
 	if err != nil {
 		fmt.Println("Error:", err)
 		return

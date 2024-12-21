@@ -1,4 +1,4 @@
-package external_package
+package external
 
 import (
 	"fmt"
