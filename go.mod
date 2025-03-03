@@ -1,4 +1,4 @@
-module github.com/vikaspoddar/go-in-1hr
+module github.com/vikaspoddar/quickstart-go
 
 go 1.23
 

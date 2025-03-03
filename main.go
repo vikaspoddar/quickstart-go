@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/vikaspoddar/go-in-1hr/common"
+	"github.com/vikaspoddar/quickstart-go/common"
 )
 
 func main() {
