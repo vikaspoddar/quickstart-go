@@ -38,10 +38,10 @@ archives:
       - goos: windows
         format: zip
 brews:
-  - name: go-in-1hr
-    homepage: https://github.com/VikasPoddar/go-in-1hr
+  - name: quickstart-go
+    homepage: https://github.com/vikaspoddar/quickstart-go
     repository:
-      owner: VikasPoddar
+      owner: vikaspoddar
       name: homebrew-go-in-1hr
       branch: main
 
