@@ -10,7 +10,7 @@ func main() {
 	// every demo has its own package
 	// for example
 	// 1. testing package: This package demonstrate how simple testing works in go
-	common.TickerDemo()
+	common.InputDemo()
 }
 
 //following function are used for testing github-action's CI workflow
