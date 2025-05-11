@@ -25,8 +25,6 @@ WORKDIR /app
 # Copy the built binary from the builder stage
 COPY --from=builder /app/main .
 
-# Expose the application port
-EXPOSE 8080
-
+ENV NAME="vikas" 
 # Command to run the application
 CMD ["./main"]
