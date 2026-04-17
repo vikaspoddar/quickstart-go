@@ -9,5 +9,6 @@ This a collection of demo for go concepts
 - array
 - slice
 - map
+- channel
 
 **Note:** Do use the **make** function for declaring and initializing slice, map, and channel
