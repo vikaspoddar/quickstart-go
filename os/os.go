@@ -2,6 +2,7 @@ package os
 
 import (
 	"fmt"
+	"log"
 	"os"
 )
 
@@ -11,6 +12,9 @@ func OsDemo() {
 		fmt.Println("Error:", err)
 		return
 	}
-	defer file.Close()
+	err = file.Close()
+	if err != nil {
+		log.Printf("issue while closing the file: %v", err)
+	}
 	fmt.Println(file.Name())
 }

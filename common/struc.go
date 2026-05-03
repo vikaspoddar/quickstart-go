@@ -8,12 +8,6 @@ type GasEngine struct {
 	OwnerInfo Owner
 }
 
-type electricEngine struct {
-	MpKwh     uint8
-	Kwh       uint16
-	OwnerInfo Owner
-}
-
 type Engine interface {
 	GetOwner() string
 }

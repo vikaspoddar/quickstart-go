@@ -13,7 +13,7 @@ func ArraysDemo() {
 		fmt.Printf("array[%v] = %v\n", index, value)
 	}
 	fmt.Println("Array memory address")
-	for index, _ := range array {
+	for index := range array {
 		fmt.Println(&array[index])
 	}
 	fmt.Printf("Arrays [1:3] %v\n", array[1:3])

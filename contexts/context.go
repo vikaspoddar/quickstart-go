@@ -5,12 +5,16 @@ import (
 	"fmt"
 )
 
+type contextKey string
+
+const currentContextKey contextKey = "key"
+
 func doSomething(ctx context.Context) {
 	fmt.Printf("do something with the key's value: %s\n", ctx.Value("key"))
 
-	anotherCtx := context.WithValue(ctx, "key", "anotherValue")
+	anotherCtx := context.WithValue(ctx, currentContextKey, "anotherValue")
 	doAnother(anotherCtx)
-	
+
 	fmt.Printf("do something with the key's value: %s\n", ctx.Value("key"))
 }
 
@@ -19,6 +23,6 @@ func doAnother(ctx context.Context) {
 }
 func ContextDemo() {
 	ctx := context.Background()
-	ctx = context.WithValue(ctx, "key", "value")
+	ctx = context.WithValue(ctx, currentContextKey, "value")
 	doSomething(ctx)
 }
